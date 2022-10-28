@@ -1,0 +1,48 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  box-sizing: border-box;
+}
+.listeler {
+  width: 500px;
+  margin: 50 px auto;
+}
+ul {
+  width: 600px;
+  margin-bottom: 25px;
+}
+ul li {
+  display: flex;
+  border: 2px solid black;
+  background: white;
+  margin: 15px;
+  padding: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+
+li a {
+  color: rgb(15, 10, 10);
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.renk {
+  height: 110px;
+  width: 110px;
+  border-radius: 50%;
+}
+.urun {
+  display: flex;
+  gap: 60px;
+}
+.family-name {
+  color: red;
+}
+.urunler {
+  display: flex;
+  flex-wrap: wrap;
+}
